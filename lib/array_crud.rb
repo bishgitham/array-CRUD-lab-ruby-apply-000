@@ -10,25 +10,28 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = [1,2,3,4]
-  puts array.push "element"
+  array.push "element"
 end
 
 def add_element_to_start_of_array(array, element)
   x = [1,2,3,4]
-  x.unshift ("engalnd")
+  x.unshift."#{element}"
 end
 
 def remove_element_from_end_of_array(array)
-  x = [1,2,3,4]
-  x.shift
+  array = [1,2,3,4]
+  array.pop
 
 end
 
 def remove_element_from_start_of_array(array)
-
+  array = [1,2,3,4]
+  array.shfit
 end
 
 def retrieve_element_from_index(array, index_number)
+  array = [1,2,3,4]
+  array
 
 end
 
