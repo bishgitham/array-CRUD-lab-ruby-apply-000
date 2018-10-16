@@ -9,8 +9,8 @@ x = ["a", "b", 6, 7]
 end
 
 def add_element_to_end_of_array(array, element)
-  x = [1,2,3,4]
-  x.push "abc"
+  array = [1,2,3,4]
+  puts array.push "element"
 end
 
 def add_element_to_start_of_array(array, element)
